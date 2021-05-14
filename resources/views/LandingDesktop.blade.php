@@ -53,25 +53,26 @@
             <p>Відеокарти</p>
             <hr>
         </div>
-        <div id="slider-box">
-            <div id="slider">
-                <figure>
-                    <div>
-                        <img src="{{ asset('images/search.svg') }}" alt>
-                    </div>
-                    <div>
-                        <img src="{{ asset('images/search.svg') }}" alt>
-                    </div>
-                    <div>
-                        <img src="{{ asset('images/search.svg') }}" alt>
-                    </div>
-                    <div>
-                        <img src="{{ asset('images/search.svg') }}" alt>
-                    </div>
-                    <div>
-                        <img src="{{ asset('images/search.svg') }}" alt>
-                    </div>
-                </figure>
+        <div class="slider-container">
+            <div class="menu">
+                <label for="slide-dot-1"></label>
+                <label for="slide-dot-2"></label>
+                <label for="slide-dot-3"></label>
+            </div>
+
+            <input id="slide-dot-1" type="radio" name="slides" checked>
+            <div class="slide slide-1">
+                <img src="{{ asset('images/1.png') }}" id="search-icon">
+            </div>
+
+            <input id="slide-dot-2" type="radio" name="slides">
+            <div class="slide slide-2">
+                <img src="{{ asset('images/2 graphics-cards-video-adapters-evga-corporation-nvidia-geforce-gtx-980-gtx-png-favpng-RmayaG6anfAKYMMgsa0V6KNmr.jpg') }}" id="search-icon">
+            </div>
+
+            <input id="slide-dot-3" type="radio" name="slides">
+            <div class="slide slide-3">
+                <img src="{{ asset('images/3 graphics-cards-video-adapters-nvidia-geforce-gtx-1070-ti-msi-geforce-gtx-1070-ti-duke-8gb-graphics-card-msi-geforce-gtx-1070-ti-titanium-8g-graphics-card-png-favpng-zzMyRdSp6Xx7rjCgZEzSK4kuq.jpg') }}" id="search-icon">
             </div>
         </div>
 
